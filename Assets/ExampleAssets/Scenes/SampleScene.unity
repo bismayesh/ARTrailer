@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.4405707, g: 0.48919934, b: 0.569344, a: 1}
+  m_IndirectSpecularColor: {r: 0.43809602, g: 0.48602492, b: 0.5668265, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -305,12 +305,20 @@ MonoBehaviour:
   m_Dithering: 0
   m_ClearDepth: 1
   m_AllowXRRendering: 1
+  m_AllowHDROutput: 1
   m_UseScreenCoordOverride: 0
   m_ScreenSizeOverride: {x: 0, y: 0, z: 0, w: 0}
   m_ScreenCoordScaleBias: {x: 0, y: 0, z: 0, w: 0}
   m_RequiresDepthTexture: 0
   m_RequiresColorTexture: 0
   m_Version: 2
+  m_TaaSettings:
+    quality: 3
+    frameInfluence: 0.1
+    jitterScale: 1
+    mipBias: 0
+    varianceClampScale: 0.9
+    contrastAdaptiveSharpening: 0
 --- !u!1 &388525029
 GameObject:
   m_ObjectHideFlags: 0
@@ -697,7 +705,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 474bcb49853aa07438625e644c072ee6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Version: 2
+  m_Version: 3
   m_UsePipelineSettings: 1
   m_AdditionalLightsShadowResolutionTier: 2
   m_LightLayerMask: 1
@@ -707,7 +715,7 @@ MonoBehaviour:
   m_ShadowRenderingLayers: 1
   m_LightCookieSize: {x: 1, y: 1}
   m_LightCookieOffset: {x: 0, y: 0}
-  m_SoftShadowQuality: 1
+  m_SoftShadowQuality: 2
 --- !u!1 &708781446
 GameObject:
   m_ObjectHideFlags: 0
@@ -748,6 +756,7 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!135 &708781448
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -776,7 +785,7 @@ MeshRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 708781446}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
@@ -976,7 +985,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: b0607b3fd1c0cac4f945e8c39cf8fd23, type: 2}
+      objectReference: {fileID: 2100000, guid: 7b058996044e9c94f9403cfe3e2c8220, type: 2}
     - target: {fileID: 919132149155446097, guid: e425ad1ef83f4cc41ac4f15033db0334,
         type: 3}
       propertyPath: m_Name
@@ -986,12 +995,12 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 05ac129cb1243864c8e73e454ff8bede, type: 2}
+      objectReference: {fileID: 2100000, guid: fb6387fab98b2694cab1c6e38016051f, type: 2}
     - target: {fileID: 8464272513735780198, guid: e425ad1ef83f4cc41ac4f15033db0334,
         type: 3}
       propertyPath: m_Materials.Array.data[1]
       value: 
-      objectReference: {fileID: 2100000, guid: c6dae0f0c7698384488fb877c3480631, type: 2}
+      objectReference: {fileID: 2100000, guid: 3ba3347aaf1f58d41902a014af5ff602, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1010,6 +1019,11 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 12409191610039261, guid: 3a0134ffd221cd045985c6f96ca5b954,
+        type: 3}
+      propertyPath: m_Materials.Array.data[1]
+      value: 
+      objectReference: {fileID: 2100000, guid: 1507dd1d789595844b8da3155455de16, type: 2}
     - target: {fileID: 579004310032265904, guid: 3a0134ffd221cd045985c6f96ca5b954,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -1303,7 +1317,7 @@ PrefabInstance:
     - target: {fileID: 8555882714432936533, guid: 3a0134ffd221cd045985c6f96ca5b954,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.35
+      value: -0.28
       objectReference: {fileID: 0}
     - target: {fileID: 8762137517963148312, guid: 3a0134ffd221cd045985c6f96ca5b954,
         type: 3}
@@ -1377,6 +1391,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Bisma
+      objectReference: {fileID: 0}
+    - target: {fileID: 8158862373262340472, guid: 3baa86ba1f79fda4a8fa93c3a0e1c72f,
+        type: 3}
+      propertyPath: m_PlayOnAwake
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8991165382842934545, guid: 3baa86ba1f79fda4a8fa93c3a0e1c72f,
         type: 3}

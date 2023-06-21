@@ -8,17 +8,17 @@ ModelImporter:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: govde
-    second: {fileID: 2100000, guid: 5928b30e9cb874e4082cec4d36ca539e, type: 2}
+    second: {fileID: 2100000, guid: b521d92670b37414b8c4c5452c7e890e, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: maske
-    second: {fileID: 2100000, guid: 004895a054d9639419ba58604292cd6d, type: 2}
+    second: {fileID: 2100000, guid: 89d33684dc767364297ece17fcdf38d9, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: yaprak
-    second: {fileID: 2100000, guid: 34ea9ac9724de444ca534a510ed2d0c2, type: 2}
+    second: {fileID: 2100000, guid: 60c2eedf051c11c4eaa7ae3f707b1fa5, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
@@ -84,6 +84,7 @@ ModelImporter:
     addColliders: 0
     useSRGBMaterialColor: 1
     sortHierarchyByName: 1
+    importPhysicalCameras: 1
     importVisibility: 1
     importBlendShapes: 1
     importCameras: 1

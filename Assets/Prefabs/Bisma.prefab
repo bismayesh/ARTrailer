@@ -4886,6 +4886,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6819744891394264262}
   - component: {fileID: 8158862373262340472}
+  - component: {fileID: 7110408845166581524}
   m_Layer: 0
   m_Name: audio
   m_TagString: Untagged
@@ -5004,6 +5005,18 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &7110408845166581524
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4303918497800873467}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18374664ca02094dafd0886d8e2607a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &4510866095870420987
 GameObject:
   m_ObjectHideFlags: 0
@@ -5033,7 +5046,7 @@ Transform:
   m_GameObject: {fileID: 4510866095870420987}
   m_LocalRotation: {x: -0.02631776, y: -0.99414533, z: 0.010782856, w: 0.104240976}
   m_LocalPosition: {x: 1.679, y: 0.996, z: 1.154}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.73484, y: 0.73484, z: 0.73484}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 8991165382842934545}
@@ -5259,17 +5272,17 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: 700a27692744261478c9e2be2ea744e1,
         type: 3}
       propertyPath: m_LocalScale.x
-      value: 0.020248776
+      value: 0.01487961
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 700a27692744261478c9e2be2ea744e1,
         type: 3}
       propertyPath: m_LocalScale.y
-      value: 0.020248776
+      value: 0.01487961
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 700a27692744261478c9e2be2ea744e1,
         type: 3}
       propertyPath: m_LocalScale.z
-      value: 0.020248776
+      value: 0.01487961
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 700a27692744261478c9e2be2ea744e1,
         type: 3}
@@ -5457,17 +5470,17 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: 700a27692744261478c9e2be2ea744e1,
         type: 3}
       propertyPath: m_LocalScale.x
-      value: 0.020248776
+      value: 0.01487961
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 700a27692744261478c9e2be2ea744e1,
         type: 3}
       propertyPath: m_LocalScale.y
-      value: 0.020248776
+      value: 0.01487961
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 700a27692744261478c9e2be2ea744e1,
         type: 3}
       propertyPath: m_LocalScale.z
-      value: 0.020248776
+      value: 0.01487961
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 700a27692744261478c9e2be2ea744e1,
         type: 3}
@@ -5561,17 +5574,17 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: 700a27692744261478c9e2be2ea744e1,
         type: 3}
       propertyPath: m_LocalScale.x
-      value: 0.020248776
+      value: 0.01487961
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 700a27692744261478c9e2be2ea744e1,
         type: 3}
       propertyPath: m_LocalScale.y
-      value: 0.020248776
+      value: 0.01487961
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 700a27692744261478c9e2be2ea744e1,
         type: 3}
       propertyPath: m_LocalScale.z
-      value: 0.020248776
+      value: 0.01487961
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 700a27692744261478c9e2be2ea744e1,
         type: 3}

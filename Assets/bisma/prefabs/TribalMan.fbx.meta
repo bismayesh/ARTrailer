@@ -3,7 +3,22 @@ guid: 69074c9b1dce89e42a2a7038952b9e75
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: govde
+    second: {fileID: 2100000, guid: 32badb99de15d1f429ce00b2dcf49a3a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: maske
+    second: {fileID: 2100000, guid: e50242b9cb536484fa85914b32d7be24, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: yaprak
+    second: {fileID: 2100000, guid: 714c0d098bd5614479fd5a307b32e0a4, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
@@ -41,6 +56,7 @@ ModelImporter:
     addColliders: 0
     useSRGBMaterialColor: 1
     sortHierarchyByName: 1
+    importPhysicalCameras: 1
     importVisibility: 1
     importBlendShapes: 1
     importCameras: 1
